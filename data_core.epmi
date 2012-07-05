@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://edshare.com/id/epm/data_core'>
+  <epmid>data_core</epmid>
+  <uri>http://edshare.com/id/epm/data_core</uri>
+  <documents>
+    <document>
+      <files>
+        <file>
+          <filename>epm/data_core/cfg/cfg.d/x_data_core.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>da393be6965d678fa5460bdfe71c649b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1235</filesize>
+        </file>
+        <file>
+          <filename>epm/data_core/cfg/lang/en/phrases/x_data_core.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>e16cab4c5baae94cfa384599e93d927c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2294</filesize>
+        </file>
+        <file>
+          <filename>epm/data_core/cfg/workflows/eprint/data_core.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>f6b25dcd7611074ea3e8610899844367</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1665</filesize>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/Screen/EPrint/DataEdit.pm</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>977a3717b5214e44d3fd4a28dc3ac9b3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>344</filesize>
+        </file>
+      </files>
+      <mime_type>inode/symlink</mime_type>
+      <format>other</format>
+      <main>plugins/EPrints/Plugin/Screen/EPrint/DataEdit.pm</main>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>McSweeney</family>
+        <given>Patrick</given>
+      </name>
+      <id>pm5@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>Data Core</title>
+  <description>Changes the core metadata and workflow of EPrints to make it more focused for as a dataset repository. The workflow is trimmed for simplicity. The review buffer is removed to give users better control of their data.</description>
+</epm>
